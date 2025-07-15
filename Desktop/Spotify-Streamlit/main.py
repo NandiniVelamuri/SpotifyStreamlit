@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+from pathlib import Path
 import os
 import plotly.express as px
 
@@ -60,7 +61,8 @@ def format_kpi_value(top_song_vs_avg_val):
         return f"<span style='color: red;'>{top_song_vs_avg_val:.1%} ▼</span>"
 
 try:
-    spotify_df = pd.DataFrame(pd.read_excel(os.path.join(os.getcwd(),"dataSet","spotify.xlsx")))
+    DATA_PATH = Path(__file__).parent/"dataSet"/"spotify.xlsx"
+    spotify_df = pd.DataFrame(pd.read_excel(DATA_PATH))
     spotify_df = spotify_df.drop(574, axis=0)
 except FileNotFoundError:
     st.error("Error: 'spotify.xlsx' not found in the 'dataSet' folder.")
