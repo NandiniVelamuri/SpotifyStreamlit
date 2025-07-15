@@ -1,9 +1,5 @@
 # 🎵 Spotify Music Analysis Dashboard
 
-<a href="https://your-dashboard-url.com" target="_blank">
-  <img src="<path-to-a-screenshot-of-your-dashboard.png>" alt="Spotify Dashboard Screenshot" width="800" />
-</a>
-
 An interactive data visualization dashboard built with **Python** and **Streamlit** to explore and analyze a dataset of top-streamed songs on Spotify. This project provides valuable insights into music trends, artist popularity, and key audio features.
 
 ## ✨ Features
