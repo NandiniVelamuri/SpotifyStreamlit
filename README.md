@@ -1,5 +1,7 @@
 # 🎵 Spotify Music Analysis Dashboard
 
+https://spotify-insights.streamlit.app/
+
 An interactive data visualization dashboard built with **Python** and **Streamlit** to explore and analyze a dataset of top-streamed songs on Spotify. This project provides valuable insights into music trends, artist popularity, and key audio features.
 
 ## ✨ Features
